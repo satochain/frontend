@@ -1,0 +1,56 @@
+{
+  "name": "erapad-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "postcss": "^8.4.20",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "6.3.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2",
+    "http-proxy-middleware": "^2.0.6",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-datetime-picker": "^3.4.1",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-helmet": "^6.1.6",
+    "@types/react-slick": "^0.23.10",
+    "autoprefixer": "^10.4.13",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
+  }
+}
